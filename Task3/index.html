@@ -1,24 +1,54 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Task</title>
-  <style>
-    .main-body {
-      margin: 50px 250px 50px 250px;
-    }
-  </style>
-</head>
-<body>
-  <div class="main-body">
-    <h4>List</h4>
-    <ol>
-      <li>Item</li>
-      <li>Item</li>
-      <li>Item</li>
-    </ol>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task</title>
+    <style>
+      .header {
+        height: 50px;
+        background: gray;
+      }
+      .footer {
+        height: 50px;
+        background: gray;
+      }
+      .left {
+        width: 250px;
+        background: green;
+      }
+      .right {
+        width: 250px;
+        background: green;
+      }
+      .content {
+        justify-content: center;
+        display: flex;
+      }
+      .main {
+        width: 100%;
+        padding-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="header"></div>
+      <div class="content">
+        <div class="left"></div>
+        <div class="main">
+          <h4>List</h4>
+          <ol>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+          </ol>
+        </div>
+        <div class="right"></div>
+      </div>
+
+      <div class="footer"></div>
+    </div>
+  </body>
 </html>
